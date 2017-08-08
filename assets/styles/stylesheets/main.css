@@ -1,0 +1,109 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 3, ../sass/_lib.scss */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Geosans;
+  src: url("../../fonts/GeosansLight.ttf");
+}
+
+/* line 6, ../sass/_base.scss */
+html {
+  height: 100%;
+}
+
+/* line 9, ../sass/_base.scss */
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* line 14, ../sass/_base.scss */
+h1 {
+  margin: 0;
+}
+
+/* line 18, ../sass/_base.scss */
+* {
+  font-family: Geosans;
+  text-decoration: none;
+}
+
+/* line 23, ../sass/_base.scss */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 1, ../sass/_index.scss */
+#header {
+  width: 100%;
+  text-align: center;
+  background-color: #0c1f42;
+  opacity: 0.5;
+  position: fixed;
+}
+/* line 7, ../sass/_index.scss */
+#header #header_links {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 12, ../sass/_index.scss */
+#header li {
+  display: inline-block;
+  padding: 0 20px;
+}
+/* line 16, ../sass/_index.scss */
+#header a {
+  color: #aaaaaa;
+  transition: color 0.4s;
+  -webkit-transition: color 0.4s;
+}
+/* line 20, ../sass/_index.scss */
+#header a:hover {
+  color: white;
+}
+
+/* line 26, ../sass/_index.scss */
+#intro {
+  height: 600px;
+  background: #000055;
+  background-size: auto 100%;
+}
+/* line 31, ../sass/_index.scss */
+#intro .text {
+  padding: 260px 0;
+  width: 100%;
+  line-height: 0;
+  text-align: center;
+  color: white;
+}
+/* line 38, ../sass/_index.scss */
+#intro h1 {
+  line-height: 60px;
+}
+/* line 41, ../sass/_index.scss */
+#intro p {
+  line-height: 20px;
+  margin: 0 2rem;
+}
+
+/* line 47, ../sass/_index.scss */
+#footer {
+  width: 100%;
+  background-color: #0c1f42;
+}
+/* line 50, ../sass/_index.scss */
+#footer #footer_links {
+  padding: 20px 0;
+  margin: 0;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Geosans;
+  src: url('../../fonts/GeosansLight.ttf');
+}
+
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+* {
+  font-family: Geosans;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
