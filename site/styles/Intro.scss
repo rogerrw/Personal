@@ -1,0 +1,25 @@
+h1 {
+  color: blue;
+}
+
+#intro {
+  #intro-background {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+    img {
+      left: 50%;
+      transform: translate(-50%, 0);
+      position: absolute;
+      min-width: 101%;
+      min-height: 100%;
+      margin: auto;
+    }
+  }
+  #intro-text {
+    color: white;
+  }
+}

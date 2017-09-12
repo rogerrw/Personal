@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div>
-        <a href='#'>
+        <a href='https://www.flickr.com/photos/146308544@N05/'>
           <img src="/images/flickr_logo.png" alt="" />
         </a>
       </div>
