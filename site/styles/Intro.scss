@@ -3,23 +3,30 @@ h1 {
 }
 
 #intro {
-  #intro-background {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    z-index: -1;
+  padding: 5rem;
+  #intro-content{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+  }
+
+  #profile-pic {
+    flex-basis: 50%;
+    padding: 2rem;
 
     img {
-      left: 50%;
-      transform: translate(-50%, 0);
-      position: absolute;
-      min-width: 101%;
-      min-height: 100%;
-      margin: auto;
+      width: 100%;
     }
   }
-  #intro-text {
-    color: white;
+  #welcome-text {
+    flex-basis: 50%;
+    color: black;
+
+    p {
+      padding: 0 2rem;
+      margin-bottom: 1rem;
+    }
   }
 }
