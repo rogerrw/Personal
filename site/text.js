@@ -10,7 +10,8 @@ module.exports = Object.freeze({
 
 
   // Experience
-  IEAS_TITLE: '',
+  IEAS_TITLE: `Web Developer for the Institute of East Asian Studies @ UC Berkeley`,
   IEAS_DESCRIPTION: '',
+  IEAS_SKILLS: ['HTML', 'CSS', 'DreamWeaver'],
 
 });

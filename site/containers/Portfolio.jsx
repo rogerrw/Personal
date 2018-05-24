@@ -2,14 +2,17 @@ import React from 'react';
 import Experience from '../components/Experience';
 require('../styles/Portfolio.scss');
 
-export default class Intro extends React.Component {
+const text = require('../text');
+
+export default class Portfolio extends React.Component {
   render() {
     return (
       <div id="portfolio">
         <Experience
             imageSrc="/images/ieas_logo.png"
-            title="Web Developer for the Institute of East Asian Studies @ UC Berkeley"
-            description=""
+            title={text.IEAS_TITLE}
+            description={text.IEAS_DESCRIPTION}
+            skills={text.IEAS_SKILLS}
         />
       </div>
     );
