@@ -1,6 +1,7 @@
 import React from 'react';
 
 require('../styles/Intro.scss');
+const text = require('../text');
 
 export default class Intro extends React.Component {
   render() {
@@ -11,8 +12,11 @@ export default class Intro extends React.Component {
             <img src="/images/ProfileBW-circle.png" />
           </div>
           <div id="welcome-text">
-            <p>Hey! Roger here. Thanks for visiting!</p>
-            <p>I’m a front-end developer living in Pittsburgh, PA. Currently I work for the University of Pittsburgh’s Department of Biomedical Informatics.</p>
+            <p>{text.WELCOME}</p>
+            <p>{text.INTRO}</p>
+            <div id="contact">
+              <a href="mailto:roger.wang.r@gmail.com">{text.CONTACT}</a>
+            </div>
           </div>
         </div>
       </div>
