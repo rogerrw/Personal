@@ -1,0 +1,28 @@
+#skills {
+  text-align: center;
+  padding: 3rem;
+
+  h3 {
+    padding: 3rem;
+  }
+
+  #skills-lists {
+    display: flex;
+    text-align: left;
+    margin-left: 10%;
+    padding-bottom: 3rem;
+
+    & > div {
+      flex-basis: 25%;
+      margin: 0 1rem;
+
+      h4 {
+        padding-bottom: 1rem;
+      }
+      li {
+        margin-top: 1rem;
+      }
+
+    }
+  }
+}

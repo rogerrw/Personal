@@ -7,7 +7,11 @@ module.exports = Object.freeze({
 
   ABOUT: `I graduated from UC Berkeley with a major in Computer Science back in 2015.`,
 
-
+  // Skills
+  FRAMEWORKS: ['React.js', 'jQuery', 'Node.js', 'Express.js', 'Sails.js', 'D3.js', 'Sequelize.js'],
+  PROGRAMMING_LANGUAGES: ['Javascript', 'Java', 'Python', 'SQL', 'HTML', 'CSS/SCSS'],
+  BACKEND: ['PostgreSQL', 'MongoDB', 'Apache'],
+  TOOLS: ['Git', 'Docker', 'Browser Tools', 'WordPress'],
 
   // Experience
   IEAS_TITLE: `Web Developer for the Institute of East Asian Studies @ UC Berkeley`,
