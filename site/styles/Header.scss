@@ -1,3 +1,18 @@
-#header {
-  
+header {
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+
+  h1 {
+    font-family: 'Caveat', cursive;
+  }
+
+  & > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    padding: 1rem;
+  }
 }
