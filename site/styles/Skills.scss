@@ -8,12 +8,11 @@
 
   #skills-lists {
     display: flex;
+    justify-content: space-around;
     text-align: left;
-    margin-left: 10%;
     padding-bottom: 3rem;
 
     & > div {
-      flex-basis: 25%;
       margin: 0 1rem;
 
       h4 {
