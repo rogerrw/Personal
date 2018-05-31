@@ -8,7 +8,7 @@ export default class Skills extends React.Component {
   render() {
     return (
       <div id="skills">
-        <h3 className="section-title">Knowledge & Expertise</h3>
+        <h2 className="section-title">Knowledge & Expertise</h2>
         <div id="skills-lists">
           <div>
             <h4>Programming Languages</h4>

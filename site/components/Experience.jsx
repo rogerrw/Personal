@@ -5,6 +5,7 @@ export default class Experience extends React.Component {
   constructor(props ) {
     super(props);
     this.renderSkills = this.renderSkills.bind(this);
+    this.getDateText = this.getDateText.bind(this);
   }
 
   render() {
@@ -23,6 +24,14 @@ export default class Experience extends React.Component {
           <p className="experience-organization">
             {this.props.organization}
           </p>
+          <div className = "experience-details">
+            <span className="experience-location">
+              {this.props.location}
+            </span>
+            <span className="experience-dates">
+              {this.getDateText()}
+            </span>
+          </div>
           <p className="experience-description">
             {this.props.description}
           </p>
@@ -43,6 +52,10 @@ export default class Experience extends React.Component {
     });
     return skillTags;
   };
+
+  getDateText() {
+    return `${this.props.startDate} - ${this.props.endDate}`;
+  }
 }
 
 Experience.propTypes = {

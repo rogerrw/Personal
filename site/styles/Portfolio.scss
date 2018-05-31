@@ -3,7 +3,6 @@
 
   .experience-item {
     padding: 2rem 12rem;
-    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-around;
 
@@ -16,26 +15,38 @@
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
       }
+      img:hover {
+        filter: none;
+      }
     }
 
     .experience-right-section {
-      .experience-title {
-        margin-bottom: 1rem;
-      }
-      .experience-organization {
-        text-transform: uppercase;
-        margin-bottom: 1rem;
+      font-size: 14px;
+
+      & > div, & > p, .experience-title {
+        margin-bottom: 0.5rem;
       }
 
+      .experience-title {
+        font-size: 18px;
+      }
+
+      .experience-organization {
+        text-transform: uppercase;
+
+      }
+      .experience-details {
+        display: flex;
+        justify-content: space-between;
+      }
       .experience-skills {
-        padding-top: 1rem;
         .skill-tag {
           border-radius: 1rem;
-          border: 1px solid black;
-          padding: 3px;
+          padding: 4px 6px 3px;
           margin-right: 1rem;
           font-size: 10px;
-          background-color: pink;
+          background-color: gray;
+          color: white;
         }
       }
     }
