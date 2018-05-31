@@ -1,3 +1,43 @@
 #portfolio {
-  
+  padding: 3rem;
+
+  .experience-item {
+    padding: 2rem 12rem;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+
+    .experience-left-section {
+      padding-right: 3rem;
+
+      img {
+        height: 10rem;
+        text-align: center;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
+    }
+
+    .experience-right-section {
+      .experience-title {
+        margin-bottom: 1rem;
+      }
+      .experience-organization {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+
+      .experience-skills {
+        padding-top: 1rem;
+        .skill-tag {
+          border-radius: 1rem;
+          border: 1px solid black;
+          padding: 3px;
+          margin-right: 1rem;
+          font-size: 10px;
+          background-color: pink;
+        }
+      }
+    }
+  }
 }
