@@ -35,6 +35,9 @@ export default class Experience extends React.Component {
           <p className="experience-description">
             {this.props.description}
           </p>
+          <div className="experience-link">
+            <a target="_blank" href={this.props.link}>{this.props.link}</a>
+          </div>
           <div className="experience-skills">
             {skillsSection}
           </div>
