@@ -9,6 +9,31 @@ export default class Portfolio extends React.Component {
     return (
       <div id="portfolio">
         <h2 className="section-title">Experience</h2>
+
+        <Experience
+            imageSrc="/images/pitt_logo.png"
+            title={text.DBMI_TITLE}
+            organization={text.DBMI_ORGANIZATION}
+            description={text.DBMI_DESCRIPTION}
+            skills={text.DBMI_SKILLS}
+            location={text.DBMI_LOCATION}
+            startDate={text.DBMI_START_DATE}
+            endDate={text.DBMI_END_DATE}
+            link={text.DBMI_LINK}
+        />
+
+        <Experience
+            imageSrc="/images/moovweb_logo.png"
+            title={text.MOOVWEB_TITLE}
+            organization={text.MOOVWEB_ORGANIZATION}
+            description={text.MOOVWEB_DESCRIPTION}
+            skills={text.MOOVWEB_SKILLS}
+            location={text.MOOVWEB_LOCATION}
+            startDate={text.MOOVWEB_START_DATE}
+            endDate={text.MOOVWEB_END_DATE}
+            link={text.MOOVWEB_LINK}
+        />
+
         <Experience
             imageSrc="/images/ieas_logo.png"
             title={text.IEAS_TITLE}
@@ -22,15 +47,15 @@ export default class Portfolio extends React.Component {
         />
 
         <Experience
-            imageSrc="/images/moovweb_logo.png"
-            title={text.MOOVWEB_TITLE}
-            organization={text.MOOVWEB_ORGANIZATION}
-            description={text.MOOVWEB_DESCRIPTION}
-            skills={text.MOOVWEB_SKILLS}
-            location={text.MOOVWEB_LOCATION}
-            startDate={text.MOOVWEB_START_DATE}
-            endDate={text.MOOVWEB_END_DATE}
-            link={text.MOOVWEB_LINK}
+            imageSrc="/images/sap_logo.png"
+            title={text.SAP_TITLE}
+            organization={text.SAP_ORGANIZATION}
+            description={text.SAP_DESCRIPTION}
+            skills={text.SAP_SKILLS}
+            location={text.SAP_LOCATION}
+            startDate={text.SAP_START_DATE}
+            endDate={text.SAP_END_DATE}
+            link={text.SAP_LINK}
         />
       </div>
     );
