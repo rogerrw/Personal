@@ -51,8 +51,18 @@ module.exports = Object.freeze({
   SAP_LOCATION: 'Dublin, CA',
   SAP_LINK: 'https://wiki.scn.sap.com/wiki/display/SYBESP/Event+Stream+Processor',
 
+
+  // Side Projects
+  MEMORIZE_NAME: '(Upcoming) Memorize',
+  MEMORIZE_DESCRIPTION: `A new idea for a web tool to help people interactively memorize Bible verses. Stay tuned. I'm currently building this in my off-time with a friend.`,
+  MEMORIZE_SKILLS: ['React.js', 'MongoDB', 'SASS', 'Node.js', 'Express.js'],
+
   PERSONAL_NAME: 'Personal Website',
   PERSONAL_DESCRIPTION: `You're looking at it. I know, I know, React is overkill for this, but I also think of it as my little playground for CSS animations, responsive design, and other fun things.`,
   PERSONAL_SKILLS: ['React.js', 'Javascript', 'HTML', 'SASS', 'Webpack'],
+
+  CALAPPS_NAME: 'Cal Apps',
+  CALAPPS_DESCRIPTION: `This was a CS169 (software engineering) project, where I and a team of four other students partnered up with the UC Berkeley IT department. The idea was rather silly: a portal where students could go to find other students' work, and showcase their own. The project was passed off to others in the department after we built our first two working iterations.`,
+  CALAPPS_SKILLS: ['Ruby', 'Rails', 'SASS', 'SQLite'],
 
 });

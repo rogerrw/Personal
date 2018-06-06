@@ -59,12 +59,24 @@ export default class Portfolio extends React.Component {
             link={text.SAP_LINK}
         />
 
+
         <h3 className="section-title">-Other Projects-</h3>
 
+        <Project
+            name={text.MEMORIZE_NAME}
+            description={text.MEMORIZE_DESCRIPTION}
+            skills={text.MEMORIZE_SKILLS}
+        />
         <Project
             name={text.PERSONAL_NAME}
             description={text.PERSONAL_DESCRIPTION}
             skills={text.PERSONAL_SKILLS}
+        />
+        <Project
+            name={text.CALAPPS_NAME}
+            description={text.CALAPPS_DESCRIPTION}
+            skills={text.CALAPPS_SKILLS}
+
         />
       </div>
     );
