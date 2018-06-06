@@ -1,5 +1,6 @@
 import React from 'react';
 import Experience from '../components/Experience';
+import Project from '../components/Project';
 require('../styles/Portfolio.scss');
 
 const text = require('../text');
@@ -56,6 +57,14 @@ export default class Portfolio extends React.Component {
             startDate={text.SAP_START_DATE}
             endDate={text.SAP_END_DATE}
             link={text.SAP_LINK}
+        />
+
+        <h3 className="section-title">-Other Projects-</h3>
+
+        <Project
+            name={text.PERSONAL_NAME}
+            description={text.PERSONAL_DESCRIPTION}
+            skills={text.PERSONAL_SKILLS}
         />
       </div>
     );

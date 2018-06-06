@@ -1,16 +1,14 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import Tags from './Tags';
 
 export default class Experience extends React.Component {
   constructor(props ) {
     super(props);
-    this.renderSkills = this.renderSkills.bind(this);
     this.getDateText = this.getDateText.bind(this);
   }
 
   render() {
-    const skillsSection = this.renderSkills();
-
     return (
       <div className="experience-item">
         <div className="experience-left-section">
@@ -39,22 +37,12 @@ export default class Experience extends React.Component {
             <a target="_blank" href={this.props.link}>{this.props.link}</a>
           </div>
           <div className="experience-skills">
-            {skillsSection}
+            <Tags textArray={this.props.skills} />
           </div>
         </div>
       </div>
     );
   }
-
-  renderSkills() {
-    const skillTags = [];
-    this.props.skills.forEach((skill, index) => {
-      skillTags.push((
-        <span className="skill-tag" key={index}>{skill}</span>
-      ));
-    });
-    return skillTags;
-  };
 
   getDateText() {
     return `${this.props.startDate} - ${this.props.endDate}`;

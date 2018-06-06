@@ -51,4 +51,8 @@ module.exports = Object.freeze({
   SAP_LOCATION: 'Dublin, CA',
   SAP_LINK: 'https://wiki.scn.sap.com/wiki/display/SYBESP/Event+Stream+Processor',
 
+  PERSONAL_NAME: 'Personal Website',
+  PERSONAL_DESCRIPTION: `You're looking at it. I know, I know, React is overkill for this, but I also think of it as my little playground for CSS animations, responsive design, and other fun things.`,
+  PERSONAL_SKILLS: ['React.js', 'Javascript', 'HTML', 'SASS', 'Webpack'],
+
 });
