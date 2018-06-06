@@ -8,7 +8,7 @@ export default class Portfolio extends React.Component {
   render() {
     return (
       <div id="portfolio">
-        <h2 className="section-title">Experience</h2>
+        <h2 className="section-title">-Portfolio-</h2>
 
         <Experience
             imageSrc="/images/pitt_logo.png"
