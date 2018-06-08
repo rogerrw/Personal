@@ -1,5 +1,17 @@
+import ProfilePic from '../images/ProfileBW-circle.png';
+import GithubLogo from '../images/github_logo.png'
+import IeasLogo from '../images/ieas_logo.png'
+import LinkedinLogo from '../images/linkedin_logo.png'
+import MoovwebLogo from '../images/moovweb_logo.png'
+import NapdiLogo from '../images/napdi_logo.png'
+import PittLogo from '../images/pitt_logo.png'
+import SapLogo from '../images/sap_logo.png'
+import StackoverflowLogo from '../images/stackoverflow_logo.png'
+
+
 module.exports = Object.freeze({
   WELCOME: 'Hey! Roger here. Thanks for visiting.',
+  WELCOME_PIC: ProfilePic,
 
   INTRO: `I’m a front-end developer living in Pittsburgh, PA. Currently I work for the University of Pittsburgh’s Department of Biomedical Informatics.`,
 
@@ -22,6 +34,7 @@ module.exports = Object.freeze({
   DBMI_END_DATE: 'Present',
   DBMI_LOCATION: 'Pittsburgh, PA',
   DBMI_LINK: 'http://repo.napdi.org/',
+  DBMI_LOGO: PittLogo,
 
   MOOVWEB_TITLE: 'Front End Developer',
   MOOVWEB_ORGANIZATION: 'Moovweb',
@@ -31,6 +44,7 @@ module.exports = Object.freeze({
   MOOVWEB_END_DATE: 'July, 2017',
   MOOVWEB_LOCATION: 'San Francisco, CA',
   MOOVWEB_LINK: 'https://www.moovweb.com/',
+  MOOVWEB_LOGO: MoovwebLogo,
 
   IEAS_TITLE: 'Part Time Web Developer',
   IEAS_ORGANIZATION: 'Institute of East Asian Studies @ UC Berkeley',
@@ -40,7 +54,7 @@ module.exports = Object.freeze({
   IEAS_END_DATE: 'May, 2015',
   IEAS_LOCATION: 'Berkeley, CA',
   IEAS_LINK: 'http://ieas.berkeley.edu/',
-
+  IEAS_LOGO: IeasLogo,
 
   SAP_TITLE: 'Software Engineer Intern',
   SAP_ORGANIZATION: 'SAP',
@@ -50,6 +64,7 @@ module.exports = Object.freeze({
   SAP_END_DATE: 'August, 2014',
   SAP_LOCATION: 'Dublin, CA',
   SAP_LINK: 'https://wiki.scn.sap.com/wiki/display/SYBESP/Event+Stream+Processor',
+  SAP_LOGO: SapLogo,
 
 
   // Side Projects
@@ -65,4 +80,8 @@ module.exports = Object.freeze({
   CALAPPS_DESCRIPTION: `This was a CS169 (software engineering) project, where I and a team of four other students partnered up with the UC Berkeley IT department. The idea was rather silly: a portal where students could go to find other students' work, and showcase their own. The project was passed off to others in the department after we built our first two working iterations.`,
   CALAPPS_SKILLS: ['Ruby', 'Rails', 'SASS', 'SQLite'],
 
+
+  FOOTER_LINKEDIN: LinkedinLogo,
+  FOOTER_STACKOVERFLOW: StackoverflowLogo,
+  FOOTER_GITHUB: GithubLogo,
 });

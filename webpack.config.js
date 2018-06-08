@@ -11,7 +11,7 @@ module.exports = {
   entry: './site/index.js',
   output: {
     path: path.resolve('dist'),
-    filename: 'index_bundle.js'
+    filename: 'index_bundle.js',
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -20,8 +20,10 @@ module.exports = {
     loaders: [
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.scss$/, loaders: [ 'style-loader', 'css-loader', 'sass-loader' ] }
+      { test: /\.scss$/, loaders: [ 'style-loader', 'css-loader', 'sass-loader' ] },
+      { test: /\.png$/, loader: 'file-loader' }
     ],
   },
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [HtmlWebpackPluginConfig],
+
 };

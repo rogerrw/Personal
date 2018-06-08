@@ -1,5 +1,4 @@
 import React from 'react';
-
 const text = require('../text');
 
 export default class Intro extends React.Component {
@@ -8,7 +7,7 @@ export default class Intro extends React.Component {
       <div id="intro">
         <div id="intro-content">
           <div id="profile-pic">
-            <img src="/images/ProfileBW-circle.png" />
+            <img src={text.WELCOME_PIC} />
           </div>
           <div id="welcome-text">
             <p>{text.WELCOME}</p>
