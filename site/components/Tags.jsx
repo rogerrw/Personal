@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-require('../styles/Tags.scss');
 
 export default class Tags extends React.Component {
   constructor(props ) {

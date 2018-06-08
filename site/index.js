@@ -7,7 +7,7 @@ import Skills from './containers/Skills';
 import Portfolio from './containers/Portfolio';
 import Footer from './containers/Footer';
 
-require('./styles/Base.scss');
+require('./styles/Main.scss');
 
 ReactDOM.render(<Header />, document.getElementById('header-container'));
 ReactDOM.render(<Intro />, document.getElementById('intro-container'));

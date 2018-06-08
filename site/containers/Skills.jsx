@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-require('../styles/Skills.scss');
 
 const text = require('../text');
 

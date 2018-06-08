@@ -1,7 +1,6 @@
 import React from 'react';
 import Experience from '../components/Experience';
 import Project from '../components/Project';
-require('../styles/Portfolio.scss');
 
 const text = require('../text');
 

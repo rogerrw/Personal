@@ -1,6 +1,5 @@
 import React from 'react';
 
-require('../styles/Intro.scss');
 const text = require('../text');
 
 export default class Intro extends React.Component {

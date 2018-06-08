@@ -1,6 +1,5 @@
 import React from 'react';
 
-require('../styles/About.scss');
 const text = require('../text');
 
 export default class About extends React.Component {
