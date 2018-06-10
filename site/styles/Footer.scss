@@ -25,9 +25,17 @@ footer {
       }
 
     }
-
-
-
   }
 
+  #contact-button {
+    max-width: 25rem;
+    margin: auto;
+    a {
+      display: block;
+      padding: 1rem;
+      text-decoration: none;
+      color: black;
+      border: 1px solid black;
+    }
+  }
 }

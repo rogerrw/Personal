@@ -75,7 +75,6 @@ export default class Portfolio extends React.Component {
             name={text.CALAPPS_NAME}
             description={text.CALAPPS_DESCRIPTION}
             skills={text.CALAPPS_SKILLS}
-
         />
       </div>
     );

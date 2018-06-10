@@ -1,4 +1,5 @@
 import React from 'react';
+const text = require('../text');
 
 export default class Header extends React.Component {
   render() {
@@ -10,7 +11,7 @@ export default class Header extends React.Component {
         </div>
         <h1>Roger Wang</h1>
         <div id="resume-download">
-          <a target="_blank" href="/resume.pdf">Resume</a>
+          <a target="_blank" href={text.RESUME}>Resume</a>
         </div>
       </div>
     );

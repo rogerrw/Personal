@@ -21,7 +21,7 @@ module.exports = {
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.scss$/, loaders: [ 'style-loader', 'css-loader', 'sass-loader' ] },
-      { test: /\.png$/, loader: 'file-loader' }
+      { test: /\.png$|\.pdf$/, loader: 'file-loader' }
     ],
   },
   plugins: [HtmlWebpackPluginConfig],

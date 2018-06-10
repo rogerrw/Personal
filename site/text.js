@@ -1,21 +1,22 @@
 import ProfilePic from '../images/ProfileBW-circle.png';
-import GithubLogo from '../images/github_logo.png'
-import IeasLogo from '../images/ieas_logo.png'
-import LinkedinLogo from '../images/linkedin_logo.png'
-import MoovwebLogo from '../images/moovweb_logo.png'
-import NapdiLogo from '../images/napdi_logo.png'
-import PittLogo from '../images/pitt_logo.png'
-import SapLogo from '../images/sap_logo.png'
-import StackoverflowLogo from '../images/stackoverflow_logo.png'
-
+import GithubLogo from '../images/github_logo.png';
+import IeasLogo from '../images/ieas_logo.png';
+import LinkedinLogo from '../images/linkedin_logo.png';
+import MoovwebLogo from '../images/moovweb_logo.png';
+import NapdiLogo from '../images/napdi_logo.png';
+import PittLogo from '../images/pitt_logo.png';
+import SapLogo from '../images/sap_logo.png';
+import StackoverflowLogo from '../images/stackoverflow_logo.png';
+import Resume from '../images/Resume_RogerWang.pdf';
 
 module.exports = Object.freeze({
   WELCOME: 'Hey! Roger here. Thanks for visiting.',
   WELCOME_PIC: ProfilePic,
+  RESUME: Resume,
 
   INTRO: `I’m a front-end developer living in Pittsburgh, PA. Currently I work for the University of Pittsburgh’s Department of Biomedical Informatics.`,
 
-  CONTACT: `Let's Talk`,
+  CONTACT: `Get in touch`,
 
   ABOUT: `I am a front-end web developer specialized in Javascript programming, with 4 years of professional experience. I graduated from UC Berkeley back in 2015, with a B.A. in Computer Science. Currently, I work for the Department of Biomedical Informatics at the University of Pittsburgh, managing a host of different sites and web applications.`,
 
