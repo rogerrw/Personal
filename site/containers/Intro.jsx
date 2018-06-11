@@ -13,7 +13,7 @@ export default class Intro extends React.Component {
             <p>{text.WELCOME}</p>
             <p>{text.INTRO}</p>
             <div id="contact">
-              <a href="mailto:roger.wang.r@gmail.com">{text.CONTACT}</a>
+              <a href="mailto:roger.rongji.wang@gmail.com">{text.CONTACT}</a>
             </div>
           </div>
         </div>

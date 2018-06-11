@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
     return (
       <div>
         <div id='contact-button'>
-          <a href="mailto:roger.wang.r@gmail.com">Get in contact</a>
+          <a href="mailto:roger.rongji.wang@gmail.com">Get in contact</a>
         </div>
         <a target='_blank' href='https://www.linkedin.com/in/roger-wang/'>
           <img src={text.FOOTER_LINKEDIN} />
